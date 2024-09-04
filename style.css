@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --roxo: rgb(82, 24, 116);
+    --rosa-claro: rgb(248, 150, 187);
+    --rosa: rgb(151, 39, 80);
+    --azul-claro: rgb(91, 173, 246);
+    --azul: rgb(13, 67, 118);
+    --fonte-primaria: "Oswald", sans-serif;
+    --fonte-secundaria: "Merriweather", serif;
+}
+
+body{
+    background-color: var(--rosa-claro);
+    font-family: var(--fonte-secundaria);
+    color: var(--roxo);
+    min-height:  100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-family: var(--fonte-primaria);
+    color: var(--roxo);
+    font-size: 6em;
+}
+h3{
+    color: var(--rosa);
+    font-family: var(--fonte-secundaria);
+    font-size: 3em;
+}
+.mensagem{
+    font-size: 1.5em;
+    color: var(--azul);
+    margin-top: 20px;
+}
+.box{
+    border: 10px double var(--rosa);
+    display: inline-block;
+    font-size: 3em;
+    padding: 10px;
+    margin: 10px;
+}
